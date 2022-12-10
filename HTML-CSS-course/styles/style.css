@@ -1,0 +1,74 @@
+*{padding:0;
+margin:0;
+}
+
+    .wrapper{
+      background:url(aryan.jpg) no-repeat;
+      background-size: cover;
+      height:100vh;
+    }
+    .navbar{
+      height:80px;
+      width: 100%;
+      background:rgba(0,0,0,0.4);
+    }
+    .logo{
+      width: 140px;
+      height: 50px;
+      padding: 20px;
+
+    }
+
+    .navbar ul{
+      float: right;
+      margin: 6px;
+    }
+
+    .navbar ul li{
+      list-style: none;
+      margin:0 8px;
+      display:inline-block;
+      line-height: 80px;
+
+    }
+
+    .navbar ul li a{
+      text-decoration: none;
+      color: white;
+      padding:6px 13px;
+      font-size: 20px;
+      transition:.4s;
+   }
+   .navbar ul li a.active, .navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+    color:black;
+    cursor: pointer;
+   }
+
+
+   .wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%,-50%);
+   }
+   .center.h1{
+    color: green;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+   }
+   .buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background:red;
+    border:1px solid #cc0000;
+    outline:none;
+    cursor: pointer;
+    border-radius: 25px;
+   }

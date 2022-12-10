@@ -1,0 +1,16 @@
+.order{
+  text-align: center;
+  margin-top: 10px;
+  font-size:20px;
+}
+.aryan{
+  font-size:50px;
+  font-family:Bold;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top:10px;  
+}
+.span-example{
+  cursor: pointer;
+  text-decoration: underline;
+}
